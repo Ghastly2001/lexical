@@ -1764,6 +1764,26 @@ hr.selected {
   position: absolute;
 }
 
+.hr-spec-editor{
+  padding: 2px 2px;
+  border: none;
+  margin: 1em 0;
+  cursor: pointer;
+}
+
+.hr-spec-editor:after {
+  content: '';
+  display: block;
+  height: 2px;
+  background-color: #ccc;
+  line-height: 2px;
+}
+
+.hr-spec-editor.selected {
+  outline: 2px solid rgb(60, 132, 244);
+  user-select: none;
+}
+
 .PlaygroundEditorTheme__blockCursor:after {
   content: '';
   display: block;

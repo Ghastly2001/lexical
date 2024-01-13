@@ -144,7 +144,7 @@ test.describe('HorizontalRule', () => {
     if (!isCollab) {
       await assertHTML(
         page,
-        '<div class="PlaygroundEditorTheme__blockCursor" contenteditable="false" data-lexical-cursor="true"></div><hr class="" data-lexical-decorator="true" contenteditable="false"><p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">Some more text</span></p>',
+        '<div class="PlaygroundEditorTheme__blockCursor" contenteditable="false" data-lexical-cursor="true"></div><hr class="hr-spec-editor" data-lexical-decorator="true" contenteditable="false"><p class="PlaygroundEditorTheme__paragraph PlaygroundEditorTheme__ltr" dir="ltr"><span data-lexical-text="true">Some more text</span></p>',
       );
     }
 
